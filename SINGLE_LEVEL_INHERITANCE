@@ -1,0 +1,13 @@
+class base_class:
+    def base_method(self):
+        print("hey iam base class")
+    def base_method2(self):
+        print("hey iam base class method2")
+class sub_class(base_class):
+    def subclass_method(self):
+        print("hey iam sub class method")
+
+obj=sub_class()
+obj.base_method()
+obj.base_method2()
+obj.subclass_method()
